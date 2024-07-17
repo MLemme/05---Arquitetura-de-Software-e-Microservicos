@@ -1,6 +1,12 @@
 workspace {
 
   model {
+
+    userContext = person "UsuárioContext" "Um usuário da biblioteca."
+    librarySystem = softwareSystem "Sistema de Biblioteca Online Contexto" "Gerencia os livros e usuários."
+        
+    userContext -> librarySystem "Usa"
+
     user = person "Usuário" "Estudante ou bibliotecário que utiliza o sistema de biblioteca online."
 
     system = softwareSystem "Sistema de Biblioteca Online" {
@@ -19,9 +25,19 @@ workspace {
       webApp -> apiComponentes "Faz chamadas para"
       apiComponentes -> database "Consulta e armazena dados em"
     }
+
+    externalSystem = softwareSystem "Sistema de Base de Dados de Livros" "Fornece informações sobre livros disponíveis."
+
+    user -> webApp "Usa"
+    system -> externalSystem "Consulta informações de"
   }
 
   views {
+
+      systemContext librarySystem {
+            include *
+            autolayout lr
+      }
   
      container system "Containers" {
       include *
