@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
+  <diagram name="Página-1" id="NrXstoitKYRzHLz_hG11">
+    <mxGraphModel dx="1418" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UdpTgImARzf_SyBVWp80-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdpTgImARzf_SyBVWp80-1" target="UdpTgImARzf_SyBVWp80-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdpTgImARzf_SyBVWp80-1" target="UdpTgImARzf_SyBVWp80-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-1" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-5" value="Realizar Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdpTgImARzf_SyBVWp80-7" target="UdpTgImARzf_SyBVWp80-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdpTgImARzf_SyBVWp80-7" target="UdpTgImARzf_SyBVWp80-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-7" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-9" value="Gerenciar Produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="265" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-11" value="Comprar Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-13" value="&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="380" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="UdpTgImARzf_SyBVWp80-15" value="Sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
